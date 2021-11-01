@@ -1,0 +1,17 @@
+.card-courses-item {
+    margin-top: 16px; 
+}
+
+.user-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+}
+
+.select-all-options {
+    width: 160px;
+    margin: 0 16px;
+}
+h3 {
+    text-align: center;
+}

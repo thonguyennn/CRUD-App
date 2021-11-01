@@ -1,0 +1,15 @@
+<!-- header -->
+<%- include('include/header') %>
+<!-- End header -->
+
+<div class="mt-4 ">
+        <div class="text-center">
+            <h2> <%= courses.name %> </h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/<%= courses.videoId %>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><%= courses.description %></p>
+        </div>
+</div>
+
+<!-- header -->
+<%- include('include/footer') %>
+<!-- End header -->
